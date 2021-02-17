@@ -57,13 +57,13 @@ const app = express()
 const faultyMiddleware = faulty({
     enabled: true,
     faultType: 'DEGRADATION',
-    initialLatencyInMs: 0,
+    initialLatencyInMs: 300,
     increaseLatencyPerRequestInMs: 100,
-    afterRequestCount: 0
+    afterRequestCount: 3
 })
 
 app.get('/', faultyMiddleware, (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello Faulty!')
 })
 
 app.listen(3000, () => {

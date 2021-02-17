@@ -1,5 +1,3 @@
-const { Fault } = require('./src/fault.model')
-const middleware = require('./src/noop.middleware')
+const middleware = require('./src/faulty.middleware')
 
 module.exports = middleware
-module.exports.Fault = Fault
