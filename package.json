@@ -1,9 +1,12 @@
 {
   "name": "express-faulty",
   "version": "1.0.0",
-  "description": "express-faulty is an NPM module to simulate faults in your Express.js web applications.",
+  "description": "express-faulty simulates faults in your Express.js web applications",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lunae/express-faulty.git"
@@ -13,7 +16,7 @@
     "faulty",
     "fault-tolerance"
   ],
-  "author": "Manny Luna",
+  "author": "Manny Luna (https://github.com/lunae)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lunae/express-faulty/issues"

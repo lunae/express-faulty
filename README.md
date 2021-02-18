@@ -1,6 +1,6 @@
 # express-faulty
 
-<a href="https://github.com/lunae/express-faulty">express-faulty</a> is an NPM module to simulate faults in your <a href="https://expressjs.com" target="_blank">Express.js</a> web applications.
+<a href="https://github.com/lunae/express-faulty">express-faulty</a> simulates faults in your <a href="https://expressjs.com" target="_blank">Express.js</a> web applications.
 
 ## Why?
 
