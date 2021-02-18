@@ -16,6 +16,9 @@
     "faulty",
     "fault-tolerance"
   ],
+  "engines" : {
+    "node" : ">=14.15"
+  },
   "author": "Manny Luna (https://github.com/lunae)",
   "license": "MIT",
   "bugs": {
